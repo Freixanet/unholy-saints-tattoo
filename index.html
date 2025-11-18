@@ -1,58 +1,64 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Unholy Saints | Barcelona Tattoo</title>
-    <meta name="description" content="Premium tattoo studio in the heart of Barcelona. Custom designs, realism, and fine line art." />
-    
-    <!-- Tailwind CSS with Custom Config for Brand Identity -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              'saint-black': '#030303',
-              'saint-dark': '#0a0a0a',
-              'saint-gray': '#171717',
-              'saint-bone': '#e5e5e5',
-              'saint-muted': '#a3a3a3',
-              'saint-blood': '#8a1c1c', // Deep crimson accent
-              'saint-blood-hover': '#b91c1c',
-            },
-            letterSpacing: {
-              'widest-xl': '0.25em',
-            },
-            fontFamily: {
-              sans: ['Helvetica Neue', 'Arial', 'sans-serif'],
-            },
-            backgroundImage: {
-              'grain': "url('data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.65%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22 opacity=%220.05%22/%3E%3C/svg%3E')",
-            }
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unholy Saints | Barcelona Tattoo</title>
+  <meta name="description"
+    content="Premium tattoo studio in the heart of Barcelona. Custom designs, realism, and fine line art." />
+
+  <!-- Tailwind CSS with Custom Config for Brand Identity -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'saint-black': '#030303',
+            'saint-dark': '#0a0a0a',
+            'saint-gray': '#171717',
+            'saint-bone': '#e5e5e5',
+            'saint-muted': '#a3a3a3',
+            'saint-blood': '#8a1c1c', // Deep crimson accent
+            'saint-blood-hover': '#b91c1c',
+          },
+          letterSpacing: {
+            'widest-xl': '0.25em',
+          },
+          fontFamily: {
+            sans: ['Helvetica Neue', 'Arial', 'sans-serif'],
+          },
+          backgroundImage: {
+            'grain': "url('data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.65%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22 opacity=%220.05%22/%3E%3C/svg%3E')",
           }
         }
       }
-    </script>
-    <style>
-      body {
-        background-color: #030303;
-        color: #e5e5e5;
-      }
-      /* Custom scrollbar for Webkit */
-      ::-webkit-scrollbar {
-        width: 8px;
-      }
-      ::-webkit-scrollbar-track {
-        background: #0a0a0a;
-      }
-      ::-webkit-scrollbar-thumb {
-        background: #333;
-      }
-      ::-webkit-scrollbar-thumb:hover {
-        background: #8a1c1c;
-      }
-    </style>
+    }
+  </script>
+  <style>
+    body {
+      background-color: #030303;
+      color: #e5e5e5;
+    }
+
+    /* Custom scrollbar for Webkit */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #0a0a0a;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #333;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #8a1c1c;
+    }
+  </style>
   <script type="importmap">
 {
   "imports": {
@@ -64,10 +70,12 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
+
 </head>
-  <body>
-    <div id="root"></div>
+
+<body>
+  <div id="root"></div>
   <script type="module" src="/index.tsx"></script>
 </body>
+
 </html>
